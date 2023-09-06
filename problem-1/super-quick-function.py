@@ -7,11 +7,11 @@ pattern1 = r"[0-9]{1}help"
 pattern2 = r"[0-9]{1}me"
 start = time.time()
     
-print("finding file")
+print("Finding File")
 
 with open('random.txt', 'rt') as f:
     print("Opened File")
-    print("searching for patterns")
+    print("Searching For Patterns")
     for line in tqdm(f, total=1_000_000):
         line = line.lower()  # make sure our text is all lowercase 
         for pattern in [pattern1, pattern2]:
