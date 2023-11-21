@@ -2,3 +2,6 @@ scipy~=1.11.4
 snakeviz~=2.1.0
 gprof2dot~=2022.7.29
 graphviz~=0.20.1
+numpy~=1.26.2
+requests~=2.31.0
+httpx~=0.25.1

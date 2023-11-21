@@ -1,5 +1,7 @@
 import re
 
+#determine a pattern and search through the text file for any instances of that patter appearing
+
 num_total_matches = 0
 pattern1 = r"[0-9]{1}help"
 pattern2 = r"[0-9]{1}me"
